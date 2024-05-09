@@ -1,6 +1,7 @@
 # EHR
 Crafted an EHR system on Ethereum using Ganache, Metamask, IPFS, and Solidity. It ensures secure patient records, enables multi-doctor diagnosis, offers health insurance, and manages medical test reports by laboratories.
 
+
 # E-Healthcare : Health Records Management Using Blockchain
 
 
@@ -8,6 +9,19 @@ Crafted an EHR system on Ethereum using Ganache, Metamask, IPFS, and Solidity. I
 The aim of this framework is firstly to implement blockchain technology for EHR and secondly to provide secure storage of electronic records by defining granular access rules for the users of the proposed framework. Moreover, this framework also discusses the scalability problem faced by the blockchain technology in general via use of off-chain storage of the records. This framework provides the EHR system with the benefits of having a scalable, secure and integral blockchain-based solution.
 <!-- TABLE OF CONTENTS -->
 
+# Key Feature
+
+User Roles: The system supports four types of users: patients, doctors, laboratories, and insurers. Each user has specific functionalities and access rights tailored to their role.
+
+Registration and Authentication: Users can register themselves on the platform and undergo authentication to ensure their identity.
+
+Medical Records Management: Patients can upload their medical records, including reports, prescriptions, and treatment history, to the blockchain. They have the authority to grant access to doctors, laboratories, and insurers selectively.
+
+Doctor-Patient Interaction: Doctors can access patients' medical records with proper authorization. They can review previous reports, add diagnoses, prescribe medications, and communicate securely with patients.
+
+Laboratory Integration: Laboratories can receive access to patients' medical records to upload test results and reports directly onto the blockchain. This ensures transparency and eliminates data discrepancies.
+
+Insurance Processing: Patients can share their medical records securely with insurers for insurance claims and coverage. Insurers can assess the authenticity of medical records and process claims efficiently.
 
 ## Installation
 
